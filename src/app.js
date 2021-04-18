@@ -21,7 +21,7 @@ app.get("/", (req, res) => {
   });
 });
 
-app.use("/contact",Contact);
+app.use("/contacto",Contact);
 
 app.use((req, res) => {
   res.status(404).json({

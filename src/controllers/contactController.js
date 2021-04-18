@@ -18,7 +18,7 @@ Contact.sendCorreo = async (req, res) => {
 
       return res.status(200).json({
         success: 1,
-        message: "Correo enviado Correctamente",
+        message: "El Correo se envio exitosamente",
       });
     }
   } catch (err) {
